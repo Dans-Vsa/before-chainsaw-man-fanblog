@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sasaki Stopped a Bullet · 17-21 · Tatsuki Fujimoto</title>
+<meta name="description" content="Pengenalan one-shot Tatsuki Fujimoto: Sasaki Stopped a Bullet (2013).">
+<meta name="theme-color" content="#20352b">
+<link rel="preload" as="image" href="../assets/img/sasaki-kv-520.webp" imagesrcset="../assets/img/sasaki-kv-520.webp 520w, ../assets/img/sasaki-kv-680.webp 680w, ../assets/img/sasaki-kv-1000.webp 1000w" imagesizes="(max-width:900px) min(80vw,380px), 420px" fetchpriority="high">
+<link rel="stylesheet" href="../assets/css/main.css?v=7">
+<link rel="stylesheet" href="../assets/css/story.css?v=7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2320352b'/%3E%3C/svg%3E">
+<style>
+.btn.small{padding:10px 14px;font-size:12px}
+.range{background:#20352b;min-height:460px}
+.board{position:absolute;left:24px;top:20px;font:900 clamp(26px,4vw,52px)/1.1 var(--jp);color:rgba(241,238,226,.18);transform:rotate(-3deg)}
+.sasaki{position:absolute;right:6%;bottom:0;height:92%;width:auto}
+.zone{position:absolute;right:calc(6% + 80px);top:22%;bottom:22%;width:80px;border:3px dashed var(--accent);opacity:.75}
+.bullet{position:absolute;left:0;top:50%;width:56px;height:22px;margin-top:-11px;background:linear-gradient(90deg,#8a6c25,#e3b85a);border:3px solid #111;border-radius:0 50% 50% 0;transform:translateX(var(--bx,-80px))}
+.bullet::before{content:"";position:absolute;right:100%;top:6px;width:var(--trail,0px);height:4px;background:linear-gradient(90deg,transparent,rgba(241,238,226,.8))}
+.result{position:absolute;inset:auto 0 24px 0;text-align:center;font:900 clamp(30px,6vw,72px)/1 var(--jp);color:var(--accent);opacity:0;transform:scale(.6);transition:all .4s var(--ease)}
+.result.show{opacity:1;transform:none}
+.range.hit .bullet{animation:shake .3s 3}
+@keyframes shake{50%{margin-top:-14px}}
+.btn[disabled]{opacity:.4;cursor:not-allowed}
+</style>
+</head>
+<body class="t-sasaki">
+<a class="skip" href="#main">Lewati ke konten</a>
+<div class="progress" aria-hidden="true"></div>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="../"><span class="jp">藤本タツキ</span> Before Chainsaw Man</a>
+    <nav aria-label="Navigasi"><ul><li><a class="pill" href="./">← 17-21</a></li><li><a class="pill" href="#main-stage">Interaktif</a></li></ul></nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="s-hero">
+    <div class="wrap s-hero-grid">
+      <div>
+        <span class="tag">17-21 · No.02 · 2013</span>
+        <h1>Sasaki Stopped a Bullet</h1>
+        <p class="jp jp-title">佐々木くんが銃弾止めた</p>
+        <p class="lede">Seorang murid yang memuja gurunya, satu peluru, dan keyakinan bahwa hal mustahil bisa dilakukan kalau kamu cukup nekat.</p>
+        <a class="btn" href="#main-stage">Coba interaksinya ↓</a>
+      </div>
+      <figure class="poster" data-tilt>
+        <img src="../assets/img/sasaki-kv-520.webp" srcset="../assets/img/sasaki-kv-520.webp 520w, ../assets/img/sasaki-kv-680.webp 680w, ../assets/img/sasaki-kv-1000.webp 1000w" sizes="(max-width:900px) min(80vw,380px), 420px" width="520" height="731" alt="Key visual anime Sasaki Stopped a Bullet" fetchpriority="high">
+        <figcaption>Key visual anime 藤本タツキ 17-26</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head"><span class="idx">01</span><h2 data-split>Sinopsis singkat</h2></div>
+      <div class="cols">
+        <div class="prose rv"><p>Sasaki mengidolakan Kawaguchi-sensei, guru yang mengajarinya untuk berani mengejar mimpi. Ketika masa lalu sang guru mengancam nama baiknya, Sasaki memutuskan untuk melindunginya dengan cara apa pun.</p><p>Caranya? Melakukan sesuatu yang mustahil secara harfiah. Ceritanya pendek, berlebihan, dan sangat Fujimoto: logika aksi absurd yang dijalankan dengan wajah serius.</p></div>
+        <aside class="facts rv" aria-label="Info karya">
+          <dl>
+            <div><dt>Judul JP</dt><dd class="jp">佐々木くんが銃弾止めた</dd></div>
+            <div><dt>Tahun</dt><dd>2013</dd></div>
+            <div><dt>Terbit di</dt><dd>Hasil lomba Crown, Jump SQ</dd></div>
+            <div><dt>Jilid</dt><dd><a href="./">17-21</a></dd></div>
+            <div><dt>Nuansa</dt><dd>Komedi nekat yang tulus</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="main-stage">
+    <div class="wrap">
+      <div class="sec-head"><span class="idx">02</span><h2 data-split>Tahan pelurunya</h2></div>
+      <p class="stage-intro rv">Tekan TEMBAK, lalu tekan STOP (atau spasi, atau klik di area) tepat saat ujung peluru masuk ke zona tangan Sasaki. Setiap berhasil, pelurunya makin cepat.</p>
+      <div class="stage range rv" id="range">
+        <div class="board" aria-hidden="true">佐々木くんが<br>銃弾止めた</div>
+        <img class="sasaki" src="../assets/img/sasaki-c1.webp" alt="" width="237" height="760" loading="lazy">
+        <div class="zone" aria-hidden="true"></div>
+        <div class="bullet" aria-hidden="true"></div>
+        <div class="result" aria-live="polite"></div>
+      </div>
+      <div class="stage-cap"><span id="range-score">Berhasil: 0 · Level 1</span><span><button class="btn small" id="fire" type="button">Tembak!</button> <button class="btn ghost small" id="stop" type="button" disabled>Stop</button></span></div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <div class="sec-head"><span class="idx">03</span><h2 data-split>Karakter</h2></div>
+      <div class="chars">
+        <figure class="char rv" tabindex="0">
+          <span class="char-name jp" aria-hidden="true">Sasaki</span>
+          <img src="../assets/img/sasaki-c1.webp" alt="Sasaki" width="300" height="760" loading="lazy" decoding="async">
+          <figcaption><strong>Sasaki</strong><span>Murid berkacamata yang percaya pada gurunya lebih dari apa pun.</span></figcaption>
+        </figure>
+        <figure class="char rv" tabindex="0">
+          <span class="char-name jp" aria-hidden="true">Kawaguchi</span>
+          <img src="../assets/img/sasaki-c2.webp" alt="Kawaguchi" width="300" height="760" loading="lazy" decoding="async">
+          <figcaption><strong>Kawaguchi</strong><span>Guru yang mengajarkan Sasaki untuk bermimpi.</span></figcaption>
+        </figure>
+      </div>
+      <blockquote class="pull rv" style="margin-top:56px">"Kalau Sensei bilang bisa, berarti bisa."</blockquote>
+      <ul class="themes rv"><li>Guru & murid</li><li>Aksi absurd</li><li>Pengorbanan</li><li>Lomba Crown</li></ul>
+    </div>
+  </section>
+
+  <nav class="pager" aria-label="One-shot lain">
+    <a href="niwatori.html"><small>← Sebelumnya</small><strong>Niwatori</strong></a>
+    <a href="love-is-blind.html"><small>Berikutnya →</small><strong>Love Is Blind</strong></a>
+  </nav>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="big jp">佐々木くんが<br>銃弾止めた</div>
+    <p>Fan blog non-resmi. Cerita © Tatsuki Fujimoto / Shueisha. Key visual &amp; karakter anime © 藤本タツキ／集英社・「藤本タツキ 17-26」製作委員会. Digunakan untuk keperluan ulasan.</p>
+  </div>
+</footer>
+<script src="../assets/js/main.js?v=7" defer></script>
+<script>
+(()=>{const st=document.getElementById('range'),b=st.querySelector('.bullet'),z=st.querySelector('.zone'),res=st.querySelector('.result'),fire=document.getElementById('fire'),stop=document.getElementById('stop'),score=document.getElementById('range-score');
+let x=-80,run=false,lvl=1,ok=0,raf,last=0;
+function end(t,good){run=false;cancelAnimationFrame(raf);stop.disabled=true;fire.disabled=false;res.textContent=t;res.classList.add('show');st.classList.toggle('hit',good);if(good){ok++;lvl++;}score.textContent='Berhasil: '+ok+' · Level '+lvl;b.style.setProperty('--trail','0px');fire.focus();}
+function zone(){const zr=z.getBoundingClientRect(),sr=st.getBoundingClientRect();return[zr.left-sr.left,zr.right-sr.left];}
+function tick(t){const dt=last?Math.min(40,t-last):16;last=t;x+=dt*(.35+lvl*.12);b.style.setProperty('--bx',x+'px');b.style.setProperty('--trail',Math.min(160,Math.max(0,x))+'px');
+ if(x+56>zone()[1]+10){end('Kena… 💥',false);return;}raf=requestAnimationFrame(tick);}
+fire.onclick=()=>{if(run)return;x=-80;last=0;run=true;res.classList.remove('show');st.classList.remove('hit');fire.disabled=true;stop.disabled=false;stop.focus();raf=requestAnimationFrame(tick);};
+function doStop(){if(!run)return;const[l,r]=zone(),tip=x+56;if(tip>=l&&tip<=r+10)end('止めた!!',true);else end('Terlalu cepat!',false);}
+stop.onclick=doStop;st.addEventListener('pointerdown',doStop);
+addEventListener('keydown',e=>{if(e.code==='Space'&&run){e.preventDefault();doStop();}});})();
+</script>
+</body>
+</html>
