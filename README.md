@@ -6,8 +6,11 @@ Tiap one-shot dikenalkan singkat di halaman jilidnya; situs khusus tiap one-shot
 
 ```bash
 npm run dev      # build + serve di http://localhost:4321
-npm run build    # hasil produksi → dist/ (deploy folder ini)
+npm run build    # hasil produksi → dist/
+npm run deploy   # build + publish dist/ ke branch gh-pages (GitHub Pages)
 ```
+
+Live: https://dans-vsa.github.io/before-chainsaw-man-fanblog/
 
 ## Struktur
 - `src/content.mjs` — semua teks/data. Teks dua bahasa ditulis `{ id: '…', en: '…' }`; teks antarmuka ada di `ui`.
