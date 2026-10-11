@@ -55,7 +55,7 @@ ${intro ? `<div class="intro" aria-hidden="true"><div class="curtain c1"></div><
 <header class="site-head">
   <div class="wrap">
     <a class="logo" href="${R || './'}"><b>藤本</b><span>${site.name}</span></a>
-    <nav class="site-nav" aria-label="${U.main}">${nav.map(([l, h]) => `<a href="${R}${h}"${cur === l ? ' aria-current="page"' : ''}>${l}</a>`).join('')}</nav>
+    <nav class="site-nav" aria-label="${U.main}">${nav.map(([l, h]) => `<a href="${R}${h}"${cur === l ? ' aria-current="page"' : ''}>${l}</a>`).join('')}<a class="arch" href="${site.archive}" title="${U.archiveFull}">${U.archive} ↗</a></nav>
     <div class="lang" role="group" aria-label="Bahasa / Language">${langLink('id', 'ID')}${langLink('en', 'EN')}</div>
     <button class="search-btn" type="button" aria-label="${U.searchLabel}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><span class="lbl">${U.search}</span><kbd>/</kbd></button>
   </div>
@@ -68,6 +68,7 @@ ${body}
     <div>
       <p><strong>${site.name}</strong> — ${c.L(site.tagline)}. ${U.fanSite}</p>
       <p>${U.credits}</p>
+      <p><a href="${site.archiveEntry}">${U.archiveEntry}</a></p>
     </div>
     <nav aria-label="Footer"><a href="${R || './'}">${U.home}</a><a href="${R}17-21/">17-21</a><a href="${R}22-26/">22-26</a></nav>
   </div>

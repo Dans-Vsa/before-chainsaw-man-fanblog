@@ -8,6 +8,8 @@ export const langs = ['id', 'en'];
 
 export const site = {
   name: 'Tatsuki Fujimoto Before Chainsaw Man',
+  archive: 'https://dans-vsa.github.io/fujimoto-archive/',
+  archiveEntry: 'https://dans-vsa.github.io/fujimoto-archive/karya.html?id=17-26',
   tagline: {
     id: 'Pengenalan singkat dua kumpulan one-shot awal Tatsuki Fujimoto: 17-21 dan 22-26',
     en: 'A short introduction to Tatsuki Fujimoto’s two early one-shot collections: 17-21 and 22-26',
@@ -391,6 +393,7 @@ export const ui = {
     descHome: 'Pengenalan singkat dua kumpulan one-shot awal Tatsuki Fujimoto, 17-21 dan 22-26.',
     bbTitle: 'Sedang tayang', bbAria: 'Billboard one-shot', bbPrev: 'Slide sebelumnya', bbNext: 'Slide berikutnya',
     bbPause: 'Jeda putar otomatis', bbPlay: 'Lanjutkan putar otomatis', bbSlide: 'Tampilkan', bbOf: 'dari', bbTicker: 'Sedang tayang',
+    archive: 'Arsip', archiveFull: 'Bagian dari Fujimoto Archive', archiveEntry: 'Lihat entri di Fujimoto Archive →',
     video: 'Video', trailer: 'Trailer resmi', pv: 'PV spesial', watch: 'Tonton', watchPv: 'Tonton PV', openYt: 'Buka di YouTube ↗',
     player: 'Pemutar video', ytNote: 'Video resmi dari channel YouTube avex pictures. Video baru dimuat setelah tombol putar diklik.',
   },
@@ -415,6 +418,7 @@ export const ui = {
     descHome: 'A short introduction to Tatsuki Fujimoto’s two early one-shot collections, 17-21 and 22-26.',
     bbTitle: 'Now showing', bbAria: 'One-shot billboard', bbPrev: 'Previous slide', bbNext: 'Next slide',
     bbPause: 'Pause autoplay', bbPlay: 'Resume autoplay', bbSlide: 'Show', bbOf: 'of', bbTicker: 'Now showing',
+    archive: 'Archive', archiveFull: 'Part of the Fujimoto Archive', archiveEntry: 'See the entry in the Fujimoto Archive →',
     video: 'Videos', trailer: 'Official trailer', pv: 'Special PV', watch: 'Watch', watchPv: 'Watch PV', openYt: 'Open on YouTube ↗',
     player: 'Video player', ytNote: 'Official videos from the avex pictures YouTube channel. Nothing loads from YouTube until you press play.',
   },
