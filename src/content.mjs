@@ -83,7 +83,7 @@ export const volumes = [
 
 export const stories = {
   niwatori: {
-    vol: '17-21', no: 1, year: 2011, img: 'niwatori', site: null, pv: '9c7ItTFlmFs',
+    vol: '17-21', no: 1, year: 2011, img: 'niwatori', site: 'https://dans-vsa.github.io/niwatori-fanblog/', pv: '9c7ItTFlmFs',
     title: "A Couple Clucking Chickens Were Still Kickin' in the Schoolyard", short: 'Niwatori',
     jp: '庭には二羽ニワトリがいた', romaji: 'Niwa ni wa Niwa Niwatori ga Ita',
     pub: { id: 'Jump Rookie! (2011)', en: 'Jump Rookie! (2011)' },

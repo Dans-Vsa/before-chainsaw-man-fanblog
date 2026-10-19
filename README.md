@@ -24,6 +24,9 @@ ID video YouTube ada di `src/content.mjs` (`anime.trailer` dan `pv` tiap one-sho
 `assets/img/yt-<id>-400.webp` / `-800.webp`; kalau mengganti ID video, buat juga thumbnail-nya.
 Iframe (`youtube-nocookie.com`) baru dimuat saat tombol putar diklik.
 
+## Situs one-shot yang sudah ada
+- Niwatori → https://dans-vsa.github.io/niwatori-fanblog/
+
 ## Menautkan situs one-shot nanti
 Isi field `site` pada one-shot di `src/content.mjs`, misalnya `site: 'https://…/sasaki/'`, lalu `npm run build`.
 Label "Situs khusus · segera hadir" otomatis berubah jadi tombol link.
