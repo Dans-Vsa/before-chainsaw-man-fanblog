@@ -145,7 +145,7 @@ export const stories = {
     animeDesigner: '小園菜穂',
   },
   love: {
-    vol: '17-21', no: 3, year: 2013, img: 'love', site: null, pv: 'bnnbCdR6sIE',
+    vol: '17-21', no: 3, year: 2013, img: 'love', site: 'https://dans-vsa.github.io/love-is-blind-fanwiki/', pv: 'bnnbCdR6sIE',
     title: 'Love Is Blind', short: 'Love Is Blind',
     jp: '恋は盲目', romaji: 'Koi wa Mōmoku',
     pub: { id: 'Hasil lomba Crown, Jump SQ (2013)', en: 'Crown contest results, Jump SQ (2013)' },

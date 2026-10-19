@@ -26,6 +26,7 @@ Iframe (`youtube-nocookie.com`) baru dimuat saat tombol putar diklik.
 
 ## Situs one-shot yang sudah ada
 - Niwatori → https://dans-vsa.github.io/niwatori-fanblog/
+- Love Is Blind → https://dans-vsa.github.io/love-is-blind-fanwiki/
 
 ## Menautkan situs one-shot nanti
 Isi field `site` pada one-shot di `src/content.mjs`, misalnya `site: 'https://…/sasaki/'`, lalu `npm run build`.
