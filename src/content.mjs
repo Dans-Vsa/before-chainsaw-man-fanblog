@@ -114,7 +114,7 @@ export const stories = {
     animeDesigner: 'もああん',
   },
   sasaki: {
-    vol: '17-21', no: 2, year: 2013, img: 'sasaki', site: null, pv: 'X8QT4C95p4Y',
+    vol: '17-21', no: 2, year: 2013, img: 'sasaki', site: 'https://dans-vsa.github.io/sasaki-fanblog/', pv: 'X8QT4C95p4Y',
     title: 'Sasaki Stopped a Bullet', short: 'Sasaki',
     jp: '佐々木くんが銃弾止めた', romaji: 'Sasaki-kun ga Jūdan Tometa',
     pub: { id: 'Hasil lomba Crown, Jump SQ (2013)', en: 'Crown contest results, Jump SQ (2013)' },
